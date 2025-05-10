@@ -61,8 +61,8 @@ def apnea_events(data, utc_time, thresh):
                 current_time = sub_sub_utc_time[j]
                 start_time.append(unix_time_converter(current_time[0]))
                 stop_time.append(unix_time_converter(current_time[-1]))
-                print('\nApnea Information')
-                print('start time : ', start_time, ' stop time : ', stop_time)
+                #print('\nApnea Information')
+                #print('start time : ', start_time, ' stop time : ', stop_time)
 
         pt1 = pt2
         pt2 += win_size
