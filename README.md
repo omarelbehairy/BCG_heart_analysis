@@ -1,7 +1,7 @@
 ### How to Run
 1. **Prepare Input**:
    - Download the zip file from [this link](http://drive.google.com/file/d/1guxbAVRs1ylf16IMyicyoOFUjJa5u9yp/view) and place it in a directory (e.g., `C:\Users\omara\Downloads\01`).
-   - Each zip should contain:
+   - zip should contain:
      - BCG files in a `BCG/` subdirectory (e.g., `01_20231105_BCG.csv`).
      - ECG (RR) files in a `Reference/RR/` subdirectory (e.g., `01_20231105_RR.csv`).
    - Filenames must include a date (e.g., `20231105`) for pairing.
