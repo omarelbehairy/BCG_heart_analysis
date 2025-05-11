@@ -2,21 +2,7 @@
 
 This project processes BCG (Ballistocardiogram) and RR (R-R Interval) data to analyze heart rate and respiratory patterns. The pipeline includes data extraction, synchronization, and analysis, producing visualizations and metrics for each patient.
 
-## Prerequisites
 
-1. **Python Environment**:
-   - Python 3.8 or higher.
-   - Required libraries: `numpy`, `pandas`, `scipy`, `matplotlib`.
-
-2. **Folder Structure**:
-   - Place patient data in the `data/` directory.
-   - Each patient folder should contain:
-     - `BCG/` folder with BCG signal files.
-     - `Reference/RR/` folder with RR reference files.
-
-3. **File Naming Convention**:
-   - BCG files: `<patient_id>_<date>_BCG.csv`.
-   - RR files: `<patient_id>_<date>_RR.csv`.
 
 ## How to Run
 
