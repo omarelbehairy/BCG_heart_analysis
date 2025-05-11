@@ -3,11 +3,12 @@
 ### How to Run
 
 1. **Prepare Input**:
-   - Download the zip file from [this link](http://drive.google.com/file/d/1guxbAVRs1ylf16IMyicyoOFUjJa5u9yp/view) and place it in a directory (e.g., `C:\Users\omara\Downloads\01`).
+   - Download the folder that contain the zip file from [this link]([http://drive.google.com/file/d/1guxbAVRs1ylf16IMyicyoOFUjJa5u9yp/view](https://drive.google.com/drive/folders/1kmL-8gnwagHmpwxwkAsEgvYLHTrQVFuT?usp=sharing)) and place it in a directory (e.g., `C:\Users\omara\Downloads\01`).
+   - Note that the idea of our program depend on uploading a folder that contain zip file of patient sample don't download the content of zip file use the directory of the folder that has the zip file (e.g., `C:\Users\omara\Downloads\01`) where 01 is a folder contain file named 01.zip.
    - Zip should contain:
      - BCG files in a `BCG/` subdirectory (e.g., `01_20231105_BCG.csv`).
      - ECG (RR) files in a `Reference/RR/` subdirectory (e.g., `01_20231105_RR.csv`).
-   - Filenames must include a date (e.g., `20231105`) for pairing.
+   - Filenames include a date (e.g., `20231105`) for pairing.
 
 2. **Set Directories**:
    - Update `zip_dir` in the script to your zip file directory.
