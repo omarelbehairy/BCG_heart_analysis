@@ -1,4 +1,4 @@
-# Heart Rate and Respiratory Analysis Pipeline
+#  Ballistocar Diography and Respiratory Analysis Pipeline
 
 This project processes BCG (Ballistocardiogram) and RR (R-R Interval) data to analyze heart rate and respiratory patterns. The pipeline includes data extraction, synchronization, and analysis, producing visualizations and metrics for each patient.
 
